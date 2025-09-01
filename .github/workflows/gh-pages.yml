@@ -1,5 +1,9 @@
 name: Deploy GitHub Pages
 
+# Grant write permission so the GITHUB_TOKEN can push created artifacts/branches.
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -10,9 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
+        # keep default persist-credentials=true so the GITHUB_TOKEN is available for pushes
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
       - name: Use Node.js (optional)
         uses: actions/setup-node@v4
@@ -22,6 +25,9 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # Prefer GITHUB_TOKEN (requires contents: write permission above). If you'd rather use
+          # a PAT, create a secret named GH_PAGES_TOKEN and replace the line below with:
+          # personal_token: ${{ secrets.GH_PAGES_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: './'
           keep_files: false
