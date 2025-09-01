@@ -1,0 +1,20 @@
+{
+  "logo": {
+    "title": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/logo-of-here-and-now-ai.png",
+    "favicon": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/favicon-logo-with-name.png",
+    "alt": "HERE AND NOW AI logo"
+  },
+  "slogan": "designed with passion for innovation",
+  "contact": {
+    "email": "info@hereandnowai.com",
+    "mobile": "+91 996 296 1000",
+    "website": "https://hereandnowai.com"
+  },
+  "social": {
+    "github": "https://github.com/hereandnowai",
+    "linkedin": "https://www.linkedin.com/company/hereandnowai/",
+    "instagram": "https://instagram.com/hereandnow_ai",
+    "x": "https://x.com/hereandnow_ai",
+    "youtube": "https://youtube.com/@hereandnow_ai"
+  }
+}

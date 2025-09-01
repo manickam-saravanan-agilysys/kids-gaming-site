@@ -1,0 +1,9 @@
+{
+  "font": "Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+  "colors": {
+    "primary": "#FFDF00",
+    "accent": "#00A8A8",
+    "bg": "#FFFFFF",
+    "text": "#0B2330"
+  }
+}

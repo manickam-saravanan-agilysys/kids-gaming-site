@@ -1,0 +1,19 @@
+{
+  "siteTitle": "Kids Gaming Zone",
+  "tagline": "Play, learn, and explore",
+  "countdown": "2025-12-01T00:00:00Z",
+  "games": [
+    {
+      "id": "math-quiz",
+      "title": "Math Blast",
+      "description": "Quick mental math challenges - practice addition & multiplication.",
+      "age": "10+"
+    },
+    {
+      "id": "word-puzzle",
+      "title": "Word Wizard",
+      "description": "Solve word puzzles to grow your vocabulary.",
+      "age": "10+"
+    }
+  ]
+}
